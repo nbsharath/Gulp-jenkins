@@ -30,9 +30,9 @@ gulp.task('html', function() {
     return gulp.src('src/index.html')
         .pipe(gulp.dest('desc'));
 });
-gulp.task('projecthtml', function() {
-    return gulp.src('../project2/src/index.html')
-        .pipe(gulp.dest('../project2/desc'));
+gulp.task('simple', function() {
+    return gulp.src('../simple/src/index.html')
+        .pipe(gulp.dest('../simple/desc'));
 });
 
 //task used to concate the javascript and uglify it
